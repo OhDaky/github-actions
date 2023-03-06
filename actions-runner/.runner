@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "lottieui-MacBook-Pro",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/74HrMq36sIuRgTlPqwqRBtpnkVJmPpPV7dX9gcZTxvBfKyezrj",
+  "gitHubUrl": "https://github.com/OhDaky/github-actions",
+  "workFolder": "_work"
+}

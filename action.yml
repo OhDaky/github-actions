@@ -1,11 +1,14 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: "sample custom action"
+description: "github actions 실습-숫자 증가시키는 액션"
+author: "OhDaky"
 inputs:
-  milliseconds: # change this
+  number: # change this
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: "숫자 증가"
+    default: "0"
+outputs:
+  value:
+    default: "증가된 숫자"
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: "node16"
+  main: "dist/index.js"
