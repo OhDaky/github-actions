@@ -12,4 +12,4 @@ jobs:
       - run: |
           npm run all
       - uses: ./
-        with: 999
+        with: 1
